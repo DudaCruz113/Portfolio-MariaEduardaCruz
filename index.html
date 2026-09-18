@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maria Eduarda Cruz — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="topo"></div>
+
+  <!-- ===== NAVEGAÇÃO ===== -->
+  <header class="nav">
+    <a href="#topo" class="nav__mark">MC</a>
+    <nav class="nav__links">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Portfólio de desenvolvimento</p>
+      <h1 class="hero__title">
+        Maria Eduarda Cruz<br>
+        <span class="hero__title--muted">onde código, design e ideias se encontram.</span>
+      </h1>
+      <p class="hero__lead">
+        Sou desenvolvedora focada em criar produtos digitais que unem estética, 
+        funcionalidade e tecnologia. Este espaço reúne meus projetos, habilidades e 
+        experiências com desenvolvimento web e mobile. 
+      </p>
+      <div class="hero__actions">
+        <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+        <a href="#contato" class="btn btn--ghost">Falar comigo</a>
+      </div>
+    </div>
+    <div class="hero__figure" aria-hidden="true">
+      <div class="hero__ring"></div>
+      <img src="img/minhafoto.jpeg" alt="Foto de Maria Eduarda Cruz" class="hero__foto">
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="sobre" id="sobre">
+    <div class="sobre__coluna sobre__coluna--label">
+      <p class="section-label">Sobre</p>
+    </div>
+    <div class="sobre__coluna sobre__coluna--conteudo">
+      <p class="sobre__texto">
+        Sou técnica em Informática para Internet, com interesse em desenvolvimento 
+        de aplicações web e mobile. Gosto de transformar ideias em projetos funcionais, 
+        buscando unir tecnologia, organização e uma boa experiência para quem utiliza. 
+        Durante minha formação, tive contato com diferentes áreas do desenvolvimento e venho 
+        aprimorando meus conhecimentos por meio de projetos acadêmicos e pessoais.
+      </p>
+      <p class="sobre__texto">
+        Atualmente, busco oportunidades para continuar desenvolvendo minhas habilidades, 
+        conhecer novas tecnologias e participar de projetos que me permitam aprender na prática. 
+        Tenho interesse em desenvolvimento de software, interfaces e criação de soluções digitais, 
+        sempre buscando evoluir tanto tecnicamente quanto profissionalmente.
+      </p>
+      <ul class="sobre__fatos">
+        <li><span>Localização</span>Espírito Santo, Brasil</li>
+        <li><span>Foco atual</span>Desenvolvimento de Software</li>
+        <li><span>Disponibilidade</span>Aberta a projetos e oportunidades</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section class="projetos" id="projetos">
+    <p class="section-label">Projetos</p>
+    <h2 class="section-title">Trabalhos selecionados</h2>
+
+    <div class="projetos__grade">
+
+      <article class="projeto">
+        <div class="projeto__topo">
+          <span class="projeto__ano">2026</span>
+          <span class="projeto__tipo">Frontend</span>
+        </div>
+        <h3 class="projeto__titulo">Lumen - Frontend</h3>
+        <p class="projeto__descricao">
+          Interface web da plataforma Lumen, desenvolvida para facilitar a
+        organização dos estudos, interação com a comunidade e acompanhamento
+        das atividades dos usuários.
+        </p>
+        <p class="projeto__colab">Projeto colaborativo</p>
+        <div class="projeto__stack">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a href="https://github.com/kauabernardes/lumen-frontend" class="projeto__link">Ver projeto →</a>
+      </article>
+
+      <article class="projeto">
+        <div class="projeto__topo">
+          <span class="projeto__ano">2026</span>
+          <span class="projeto__tipo">Backend</span>
+        </div>
+        <h3 class="projeto__titulo">Lumen - Backend</h3>
+        <p class="projeto__descricao">
+          API responsável pela lógica de negócio, gerenciamento de dados e
+        comunicação entre as aplicações da plataforma Lumen, incluindo
+        autenticação e funcionalidades em tempo real.
+        </p>
+        <p class="projeto__colab">Projeto colaborativo</p>
+        <div class="projeto__stack">
+          <span>TypeScript</span><span>NestJS</span><span>PostgreSQL</span>
+        </div>
+        <a href="https://github.com/kauabernardes/lumen-backend" class="projeto__link">Ver projeto →</a>
+      </article>
+
+      <article class="projeto">
+        <div class="projeto__topo">
+          <span class="projeto__ano">2026</span>
+          <span class="projeto__tipo">Aplicativo mobile</span>
+        </div>
+        <h3 class="projeto__titulo">Lumen - App Mobile</h3>
+        <p class="projeto__descricao">
+          Aplicativo Android nativo da plataforma Lumen, desenvolvido para
+        auxiliar estudantes na organização dos estudos, acompanhamento
+        de atividades e interação com a comunidade.
+        </p>
+        <p class="projeto__colab">Projeto colaborativo</p>
+        <div class="projeto__stack">
+          <span>Kotlin</span><span>Retrofit</span><span>XML</span>
+        </div>
+        <a href="https://github.com/kauabernardes/lumen-mobile" class="projeto__link">Ver projeto →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES ===== -->
+  <section class="habilidades" id="habilidades">
+    <div class="habilidades__coluna">
+      <p class="section-label section-label--claro">Habilidades</p>
+      <h2 class="section-title section-title--claro">Ferramentas com<br>as quais trabalho</h2>
+    </div>
+    <div class="habilidades__grupos">
+      <div class="grupo-skill">
+        <h3>Front-end</h3>
+        <p>HTML, CSS, JavaScript</p>
+      </div>
+      <div class="grupo-skill">
+        <h3>Back-end</h3>
+        <p>TypeScript, Node.js, NestJS</p>
+      </div>
+      <div class="grupo-skill">
+        <h3>Banco de dados</h3>
+        <p>PostgreSQL, MySQL</p>
+      </div>
+      <div class="grupo-skill">
+        <h3>Mobile</h3>
+        <p>Kotlin, XML, Android Studio</p>
+      </div>
+      <div class="grupo-skill">
+        <h3>Ferramentas</h3>
+        <p>Git, Figma, Docker</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contato" id="contato">
+    <p class="section-label">Contato</p>
+    <h2 class="section-title">Vamos conversar</h2>
+    <p class="contato__texto">
+      Está com um projeto em mente ou quer trocar uma ideia? Me chame por
+      e-mail ou pelas redes abaixo.
+    </p>
+    <a href="mailto:mariaeduardadacruzferreira2007@email.com" class="contato__email">mariaeduardadacruzferreira2007@email.com</a>
+    <div class="contato__redes">
+      <a href="https://www.linkedin.com/in/maria-eduarda-da-cruz-ferreira-1b9291436" target="_blank">LinkedIn</a>
+      <a href="https://github.com/DudaCruz113" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/_dudahcruz/" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p>© <span id="ano"></span> Maria Eduardo da Cruz Ferreira. Todos os direitos reservados.</p>
+    <a href="#topo" class="rodape__topo">Voltar ao topo ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
